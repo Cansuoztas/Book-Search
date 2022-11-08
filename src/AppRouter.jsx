@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Main from './Components/Main'
+import Main from './components/Main'
 import Modal from './Components/Modal'
 
 const Approuter = () => {
