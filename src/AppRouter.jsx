@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Main from './components/Main'
-import Modal from './Components/Modal'
+import Modal from './components/Modal'
 
 const Approuter = () => {
   return (
