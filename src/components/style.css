@@ -34,10 +34,10 @@
 .modals{
   width: 50rem;
   margin: 5rem auto;
-  background-color: cadetblue;
+  background-color: rgb(5, 11, 94);
   border-radius: 10px;
-  box-shadow: 3px 3px 10px yellow;
+  box-shadow: 3px 3px 10px rgb(12, 12, 12);
 }
 h2{
-  color: brown;
+  color: rgb(122, 7, 7);
 }
