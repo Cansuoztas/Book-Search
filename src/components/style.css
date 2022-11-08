@@ -15,6 +15,7 @@
 }
 
 .card{
+  margin: 15rem auto;
     width: 10rem;
 }
 
@@ -34,7 +35,7 @@
 .modals{
   width: 50rem;
   margin: 5rem auto;
-  background-color: rgb(5, 11, 94);
+  background-color: rgb(37, 45, 158);
   border-radius: 10px;
   box-shadow: 3px 3px 10px rgb(12, 12, 12);
 }
