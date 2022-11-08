@@ -15,7 +15,7 @@
 }
 
 .card{
-  margin: 15rem auto;
+
     width: 10rem;
 }
 
@@ -30,15 +30,17 @@
   margin: 2rem;
   padding: 3rem;
   gap: 2rem;
+
   
 }
 .modals{
+
   width: 50rem;
-  margin: 5rem auto;
-  background-color: rgb(37, 45, 158);
+  margin: 10rem auto;
+  background-color: rgba(201, 60, 138, 0.479);
   border-radius: 10px;
-  box-shadow: 3px 3px 10px rgb(12, 12, 12);
+  box-shadow: 5px 5px 50px rgba(12, 12, 12, 0.767);
 }
 h2{
-  color: rgb(122, 7, 7);
+  color: rgb(7, 9, 122);
 }

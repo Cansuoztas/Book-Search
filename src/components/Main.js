@@ -40,9 +40,9 @@ const Main = () => {
 
 
   return (
-    <div className='container' >
+    <div style={{margin:"5rem"}} className='container' >
         <form action="" onSubmit={handleSubmit}>
-            <h1>Search a Book Name</h1>
+            <h1 style={{margin:"20px"}}>Search a Book Name</h1>
             <input type="text" value={book} onChange={(e)=> setBook(e.target.value)} />
             <button type='submit'>SEARCH</button>
         </form>
