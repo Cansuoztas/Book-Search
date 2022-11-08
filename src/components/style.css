@@ -16,8 +16,8 @@
 
 .container{
   text-align: center;
-  background: rgb(34, 50, 195);
-background: linear-gradient(0deg, rgba(23, 25, 146, 0.26) 0%, rgb(244, 243, 250) 100%);
+  background: rgba(38, 57, 230, 0.836);
+background: linear-gradient(0deg, rgba(23, 25, 146, 0.459) 0%, rgb(244, 243, 250) 100%);
 min-height: 100vh;
 padding-bottom: 2rem;
 }
@@ -75,7 +75,7 @@ button{
 padding: 0.5rem 1rem;
 border: none;
 border-radius: 10px;
-background-color: rgba(26, 34, 182, 0.644);
+background-color: rgba(26, 34, 182, 0.514);
 }
 
 button:hover{
