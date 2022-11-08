@@ -1,17 +1,17 @@
 import React from 'react'
-import {Routes,Route} from 'react-router-dom'
-import Home from './components/Home'
-const AppRouter = () => {
+import { Route, Routes } from 'react-router-dom'
+import Main from './Components/Main'
+import Modal from './Components/Modal'
+
+const Approuter = () => {
   return (
-    <div>
-        <Routes>
-            <Route path='/' element={<Home/>}/>
-
-
-        </Routes>
-
-    </div>
+    <>
+     <Routes>
+        <Route path='/' element={<Main/>} />
+        <Route path='modal' element={ <Modal/> } />
+     </Routes>
+    </>
   )
 }
 
-export default AppRouter
+export default Approuter
