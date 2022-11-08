@@ -42,9 +42,9 @@ const Main = () => {
   return (
     <div className='container' >
         <form action="" onSubmit={handleSubmit}>
-            <h1>search a book name</h1>
+            <h1>Search a Book Name</h1>
             <input type="text" value={book} onChange={(e)=> setBook(e.target.value)} />
-            <button type='submit'>search</button>
+            <button type='submit'>SEARCH</button>
         </form>
         <div className="list">
             {booklist?.map((item,index) =>{
